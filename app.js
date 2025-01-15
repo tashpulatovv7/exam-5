@@ -22,13 +22,6 @@ var swiper = new Swiper('.swiper', {
 	},
 });
 
-function getDirection() {
-	var windowWidth = window.innerWidth;
-	var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
-
-	return direction;
-}
-
 document.addEventListener('DOMContentLoaded', () => {
 	const filterButtons = document.querySelectorAll('.product_filter button');
 	const carouselItems = document.querySelectorAll('.carousel-item');

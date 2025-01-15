@@ -30,7 +30,7 @@
 
 body {
 	overflow-x: hidden;
-	position: relative;
+	/* position: relative; */
 }
 
 html {
@@ -79,6 +79,7 @@ header h2 {
 	height: 34px;
 	margin-top: 41px;
 	position: relative;
+	cursor: pointer;
 }
 
 .karzina-plus {
@@ -337,23 +338,24 @@ span {
 	margin: 0 0 0 80px;
 	display: flex;
 	gap: 359px;
-	/* position: relative; */
+	position: relative;
 }
 
 .material1 {
 	width: 223px;
 	height: 229px;
 	position: absolute;
-	top: 2480px;
-	left: 730px;
+	/* top: 2480px; */
+	top: 270px;
+	left: 650px;
 }
 
 .material2 {
 	width: 223px;
 	height: 317.04px;
 	position: absolute;
-	top: 2750px;
-	left: 730px;
+	top: 546px;
+	left: 650px;
 }
 
 .material3 {
@@ -372,7 +374,7 @@ span {
 	height: 422px;
 
 	position: absolute;
-	top: 2550px;
+	top: 343px;
 	left: 1167px;
 	z-index: -10;
 }
@@ -518,6 +520,17 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	margin: 120px 14% 58px;
+}
+
+.last h4 {
+	font-family: Gilroy-Medium;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.last h3 {
+	font-family: Gilroy-Medium;
+	font-size: 15px;
 }
 
 .product {
@@ -815,6 +828,20 @@ footer {
 		margin: 0 5%;
 	}
 
+	.karzina-plus {
+		font-family: Gilroy-SemiBold;
+		color: white;
+		text-align: center;
+		padding-top: 5px;
+		width: 20px;
+		height: 25.24px;
+		border-radius: 50%;
+		background-color: #e58411;
+		position: absolute;
+		top: 44px;
+		left: 1346px;
+	}
+
 	.form {
 		width: 50%;
 	}
@@ -843,7 +870,9 @@ footer {
 		display: none;
 	}
 	.material3 {
-		display: none;
+		/* display: none; */
+		margin: 0 0 0 0;
+		width: 90%;
 	}
 	.bg-1-1 {
 		display: none;
