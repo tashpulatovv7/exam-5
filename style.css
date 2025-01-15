@@ -581,7 +581,9 @@ footer {
 	align-items: center;
 	gap: 10px;
 	text-decoration: none;
-	font-family: 'Gilroy-Medium';
+
+	font-family: Gilroy-Medium;
+
 	font-size: 14px;
 	line-height: 25.9px;
 	text-align: left;
@@ -612,6 +614,7 @@ footer {
 	color: #1e1e1e;
 	cursor: pointer;
 	transition: all 0.3s ease-out;
+	font-family: Gilroy-Medium;
 }
 .product_filter button:hover {
 	background-color: rgb(223, 222, 222);
@@ -619,7 +622,7 @@ footer {
 .product_filter .active {
 	background-color: #ffffff;
 }
-.product .carousel-container {
+.carousel-container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -628,7 +631,7 @@ footer {
 	max-width: 1200px;
 	position: relative;
 }
-.product .carousel-container .carousel {
+.carousel {
 	display: flex;
 	overflow: hidden;
 	scroll-behavior: smooth;
@@ -639,7 +642,7 @@ footer {
 	border-radius: 10px;
 	gap: 20px;
 }
-.product .carousel-container .carousel .carousel-item {
+.carousel-item {
 	position: relative;
 	min-width: 24%;
 	box-sizing: border-box;
@@ -647,7 +650,7 @@ footer {
 	background-color: #fafafa;
 	border-radius: 10px;
 }
-.product .carousel-container .carousel .carousel-item img {
+ .carousel-item img {
 	position: absolute;
 	top: -40px;
 	left: 50%;
