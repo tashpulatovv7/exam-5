@@ -630,8 +630,9 @@ footer {
 	width: 95%;
 	max-width: 1200px;
 	position: relative;
+	font-family: Gilroy-Medium;
 }
-.carousel {
+.carousel-container .carousel {
 	display: flex;
 	overflow: hidden;
 	scroll-behavior: smooth;
@@ -641,16 +642,18 @@ footer {
 	background-color: #f7f7f7;
 	border-radius: 10px;
 	gap: 20px;
+	font-family: Gilroy-Medium;
 }
-.carousel-item {
+.carousel-container .carousel .carousel-item {
 	position: relative;
 	min-width: 24%;
 	box-sizing: border-box;
 	text-align: center;
 	background-color: #fafafa;
 	border-radius: 10px;
+	font-family: Gilroy-Medium;
 }
- .carousel-item img {
+.product .carousel-container .carousel .carousel-item img {
 	position: absolute;
 	top: -40px;
 	left: 50%;
@@ -658,6 +661,7 @@ footer {
 	width: 220px;
 	height: auto;
 	margin-bottom: 15px;
+	font-family: Gilroy-Medium;
 }
 .product .carousel-container .carousel .carousel-item .product_text {
 	width: 100%;
@@ -668,6 +672,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	gap: 6px;
+	font-family: Gilroy-Medium;
 }
 .product .carousel-container .carousel .carousel-item .product_text p {
 	font-family: 'Inter';
@@ -679,6 +684,7 @@ footer {
 	-webkit-text-decoration-skip-ink: none;
 	text-decoration-skip-ink: none;
 	color: #8d8d8d;
+	font-family: Gilroy-Medium;
 }
 .product .carousel-container .carousel .carousel-item .product_text h3 {
 	font-family: 'Inter';
@@ -689,12 +695,14 @@ footer {
 	text-underline-position: from-font;
 	-webkit-text-decoration-skip-ink: none;
 	text-decoration-skip-ink: none;
+	font-family: Gilroy-Medium;
 }
 .product .carousel-container .carousel .carousel-item .product_text .product_price {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	margin-top: 12px;
+	font-family: Gilroy-Medium;
 }
 .product .carousel-container .carousel .carousel-item .product_text .product_price .price {
 	display: flex;
@@ -709,6 +717,7 @@ footer {
 	-webkit-text-decoration-skip-ink: none;
 	text-decoration-skip-ink: none;
 	color: #0d1b39;
+	font-family: Gilroy-Medium;
 }
 .product .carousel-container .carousel .carousel-item .product_text .product_price .price span {
 	font-family: 'Inter';
@@ -720,12 +729,14 @@ footer {
 	-webkit-text-decoration-skip-ink: none;
 	text-decoration-skip-ink: none;
 	color: #0d1b39;
+	font-family: Gilroy-Medium;
 }
 .product .carousel-container .carousel .carousel-item .product_text .product_price .button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
+	font-family: Gilroy-Medium;
 }
 .product
 	.carousel-container
@@ -743,6 +754,7 @@ footer {
 	height: 40px;
 	font-size: 1.8rem;
 	cursor: pointer;
+	font-family: Gilroy-Medium;
 }
 .product
 	.carousel-container
@@ -761,6 +773,7 @@ footer {
 	-webkit-text-decoration-skip-ink: none;
 	text-decoration-skip-ink: none;
 	color: #0d1b39;
+	font-family: Gilroy-Medium;
 }
 .product
 	.carousel-container
@@ -778,6 +791,7 @@ footer {
 	height: 40px;
 	font-size: 1.5rem;
 	cursor: pointer;
+	font-family: Gilroy-Medium;
 }
 .product .carousel-container .carousel-btn {
 	display: flex;
@@ -796,6 +810,7 @@ footer {
 	transform: translateY(-50%);
 	z-index: 10;
 	transition: all 0.3s ease-out;
+	font-family: Gilroy-Medium;
 }
 .product .carousel-container .carousel-btn:hover {
 	background-color: #cecdcc;
